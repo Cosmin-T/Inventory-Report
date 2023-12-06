@@ -61,7 +61,7 @@ IMPORTANT: This serves as an informative repository with no need for installatio
 
 ## Configuration
 
-The script relies on configuration settings stored in an INI file (`config.ini`). Ensure that the configuration settings in this file are correctly set before running the script. The configuration includes:
+The script relies on configuration settings stored in an INI file (`config.ini`). The configuration includes:
 
 - URL for the website.
 - Chrome WebDriver executable path.
