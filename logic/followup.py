@@ -1,3 +1,5 @@
+# followup.py
+
 import pandas as pd
 from logic.util import *
 import logging
@@ -26,7 +28,7 @@ def determine_output(value, label):
         if 10 <= value <= 100:
             return format_date_range(1, 2)
         elif 101 <= value <= 150:
-            return format_date_range(3, 4)
+            return format_date_range(2, 3)
         elif 151 <= value <= 250:
             return format_date_range(3, 5)
         elif 251 <= value <= 350:
@@ -39,7 +41,7 @@ def determine_output(value, label):
         if 10 <= value <= 100:
             return format_date_range(1, 2)
         elif 101 <= value <= 275:
-            return format_date_range(3, 4)
+            return format_date_range(2, 4)
         elif value > 275:
             return 'Find Tom Barker'
         else:
