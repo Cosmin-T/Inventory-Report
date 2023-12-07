@@ -54,6 +54,7 @@ LOADED_VALUE = 'campaign-footer-outcomeslabel'
 
 # paths
 AGA_REPORT = '/Volumes/Samsung 970 EVO/Documents/Python/aga_inventory_report/AGA Inventory Report.xlsx'
+OUTLOOK_TEMPLATE = config['DEFAULT']['OUTLOOK_TEMPLATE']
 
 # logging
 LOG_OUTPUT = '/Volumes/Samsung 970 EVO/Documents/Python/aga_inventory_report/log.txt'

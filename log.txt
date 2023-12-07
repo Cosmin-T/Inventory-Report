@@ -165,3 +165,62 @@
 2023-12-06 14:33:50,002 - INFO - Dates added
 2023-12-06 14:33:50,021 - INFO - Report Updated
 2023-12-06 15:20:31,303 - INFO - NumExpr defaulting to 8 threads.
+2023-12-07 14:26:30,827 - INFO - NumExpr defaulting to 8 threads.
+2023-12-07 14:26:34,432 - INFO - User Added
+2023-12-07 14:26:34,469 - INFO - Password Added
+2023-12-07 14:26:36,184 - INFO - Next Clicked
+2023-12-07 14:26:37,802 - INFO - AGA Selected
+2023-12-07 14:26:40,277 - INFO - LB19 clicked
+2023-12-07 14:26:42,398 - INFO - LB34 clicked
+2023-12-07 14:26:45,183 - INFO - LB51 clicked
+2023-12-07 14:26:47,298 - INFO - LB52 clicked
+2023-12-07 14:29:17,058 - INFO - NumExpr defaulting to 8 threads.
+2023-12-07 14:29:20,089 - INFO - User Added
+2023-12-07 14:29:20,122 - INFO - Password Added
+2023-12-07 14:29:21,608 - INFO - Next Clicked
+2023-12-07 14:30:08,414 - INFO - NumExpr defaulting to 8 threads.
+2023-12-07 14:30:11,196 - INFO - User Added
+2023-12-07 14:30:11,232 - INFO - Password Added
+2023-12-07 14:30:12,523 - INFO - Next Clicked
+2023-12-07 14:30:14,652 - INFO - AGA Selected
+2023-12-07 14:30:16,869 - INFO - LB19 clicked
+2023-12-07 14:30:18,984 - INFO - LB34 clicked
+2023-12-07 14:30:21,102 - INFO - LB51 clicked
+2023-12-07 14:30:23,216 - INFO - LB52 clicked
+2023-12-07 14:30:25,336 - INFO - LB75 clicked
+2023-12-07 14:30:27,452 - INFO - LB10 clicked
+2023-12-07 14:30:29,564 - INFO - LB14 clicked
+2023-12-07 14:30:31,676 - INFO - LB18 clicked
+2023-12-07 14:30:33,792 - INFO - LB65 clicked
+2023-12-07 14:30:35,908 - INFO - LB66 clicked
+2023-12-07 14:30:38,024 - INFO - LB73 clicked
+2023-12-07 14:30:40,146 - INFO - LB77 clicked
+2023-12-07 14:30:42,259 - INFO - LB83 clicked
+2023-12-07 14:30:44,389 - INFO - FD37 clicked
+2023-12-07 14:30:46,585 - INFO - FD80 clicked
+2023-12-07 14:30:48,719 - INFO - FD81 clicked
+2023-12-07 14:30:50,841 - INFO - FD89 clicked
+2023-12-07 14:30:52,978 - INFO - A6 clicked
+2023-12-07 14:30:55,093 - INFO - A17 clicked
+2023-12-07 14:30:57,219 - INFO - A54 clicked
+2023-12-07 14:30:59,365 - INFO - A57 clicked
+2023-12-07 14:31:01,503 - INFO - U9 clicked
+2023-12-07 14:31:03,834 - INFO - U50 clicked
+2023-12-07 14:31:06,012 - INFO - U55 clicked
+2023-12-07 14:31:08,136 - INFO - SW7 clicked
+2023-12-07 14:31:10,262 - INFO - SW13 clicked
+2023-12-07 14:31:12,377 - INFO - SW16 clicked
+2023-12-07 14:31:14,510 - INFO - SW26 clicked
+2023-12-07 14:31:16,622 - INFO - SW27 clicked
+2023-12-07 14:31:18,804 - INFO - SW36 clicked
+2023-12-07 14:31:20,920 - INFO - SW56 clicked
+2023-12-07 14:31:20,988 - INFO - Values added successfully
+2023-12-07 14:31:21,008 - INFO - Dataframe Created
+2023-12-07 14:31:21,010 - INFO - Dates added
+2023-12-07 14:31:21,018 - INFO - Report Updated
+2023-12-07 14:46:52,013 - INFO - NumExpr defaulting to 8 threads.
+2023-12-07 14:46:52,332 - INFO - Dataframe Created
+2023-12-07 14:46:52,333 - INFO - Dates added
+2023-12-07 14:46:52,352 - INFO - Report Updated
+2023-12-07 14:46:54,036 - INFO - Folders Open Successfully
+

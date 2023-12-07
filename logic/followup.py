@@ -6,6 +6,7 @@ import logging
 from logic.logs import *
 import io
 import datetime
+import subprocess
 
 def add_weekdays(start_date, days_to_add):
     current_date = start_date
@@ -24,7 +25,7 @@ def format_date_range(start_days, end_days):
 def determine_output(value, label):
     if value <= 0:
         return 'N/A'
-    elif label.startswith('LB'):
+    elif label.startswith('LB') or label.startswith('FD'):
         if 10 <= value <= 100:
             return format_date_range(1, 2)
         elif 101 <= value <= 150:
@@ -70,6 +71,20 @@ def follow():
 
         df.to_excel(AGA_REPORT, index=False)
         logging.info('Report Updated')
+
+        applescript = f"""
+        tell application "Finder"
+            activate
+            close every Finder window
+            make new Finder window to POSIX file "{AGA_REPORT}"
+            tell application "System Events" to keystroke "t" using command down
+            delay 0.5
+            set target of Finder window 1 to POSIX file "{OUTLOOK_TEMPLATE}"
+        end tell
+        """
+
+        subprocess.run(['osascript', '-e', applescript], check=True)
+        logging.info('Folders Open Successfully\n')
 
 
     except Exception as e:
