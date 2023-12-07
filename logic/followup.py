@@ -72,20 +72,5 @@ def follow():
         df.to_excel(AGA_REPORT, index=False)
         logging.info('Report Updated')
 
-        applescript = f"""
-        tell application "Finder"
-            activate
-            close every Finder window
-            make new Finder window to POSIX file "{AGA_REPORT}"
-            tell application "System Events" to keystroke "t" using command down
-            delay 0.5
-            set target of Finder window 1 to POSIX file "{OUTLOOK_TEMPLATE}"
-        end tell
-        """
-
-        subprocess.run(['osascript', '-e', applescript], check=True)
-        logging.info('Folders Open Successfully\n')
-
-
     except Exception as e:
         logging.error(f'Error: {e}')
