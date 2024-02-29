@@ -59,3 +59,11 @@ OUTLOOK_TEMPLATE = config['DEFAULT']['OUTLOOK_TEMPLATE']
 # logging
 LOG_OUTPUT = '/Volumes/Samsung 970 EVO/Documents/Python/aga_inventory_report/log.txt'
 LOG_LEVEL = logging.INFO
+
+# email sending
+FILE_OUTPUT_INV = '/Volumes/Samsung 970 EVO/Documents/Python/aga_inventory_report/AGA Inventory Report.xlsx'
+SUBJECT_INV = 'AGA Inventory Report'
+FILE_NAME_INV = 'AGA Inventory Report.xlsx'
+SENDER_EMAIL = config['DEFAULT']['SENDER_EMAIL']
+RECEIVER_EMAIL = config['DEFAULT']['RECEIVER_EMAIL']
+GMAIL_APP_PASSWORD = config['DEFAULT']['GMAIL_APP_PASSWORD']
