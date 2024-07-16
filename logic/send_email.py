@@ -36,6 +36,8 @@ def send(file_output, subject, file_name):
             smtp.login(SENDER_EMAIL, GMAIL_APP_PASSWORD)
             smtp.send_message(msg)
             logging.info("Email sent successfully!")
+            print("Email sent successfully!")
 
     except Exception as e:
         logging.error(f'Exception: {e}')
+        print(f'Exception: {e}')
